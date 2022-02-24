@@ -1,0 +1,10 @@
+{
+  "name": "sbCompositionTest",
+  "version": "0.0.0",
+  "scripts": {
+	"installs": "npm install --prefix first && npm install --prefix second",
+    "first": "npm run storybook --prefix first",
+	"second": "npm run storybook --prefix second"
+  },
+  "private": true
+}
